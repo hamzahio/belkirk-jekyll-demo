@@ -38,3 +38,8 @@ fields:
   type: text
   hidden: true
   default: post
+- name: old_post
+  type: include
+  config: {}
+  template: post
+  label: Old Post
